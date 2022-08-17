@@ -1,0 +1,29 @@
+.container{
+    overflow-x: auto;
+}
+
+.tabela, .tabela td, .tabela th{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+.tabela td, .tabela th{
+    padding: 10px;
+}
+
+.tabela th{
+    color: aliceblue;
+    background-color: black;
+}
+
+.tabela tr:nth-child(odd){
+    background-color: #cecece;
+}
+
+.tabela{
+    width: 100%;
+}
+
+.tabela tr:hover{
+    background-color: gold;
+}
