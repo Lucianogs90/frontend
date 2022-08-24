@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-primaria: #1c6e8c;
+    --cor-primaria-dark: #274156;
+    --cor-texto: #605856;
+    --cor-texto-secundaria: #FBFCFF;
+    --cor-borda: #605856;
+    --cor-fundo: #FBFCFF;
+    
+    --tamanho-componente: 280px;
+}
+
+.header{
+    padding: 10px;
+}
+
+.header h1{
+    font-family: sans-serif;
+}
+
+.header a{
+    display: inline;
+}
+
+.container{
+    background-color: var(--cor-primaria);
+}
+
+.label{
+    display: block;
+    margin-left: 10px;
+    width: var(--tamanho-componente);
+}
+
+.input{
+    padding: 10px;
+    margin-left: 10px;
+    width: var(--tamanho-componente);
+}

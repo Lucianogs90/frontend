@@ -23,15 +23,15 @@
 
         <div>
             <label class="label">Sexo</label>
+            <input type="radio" id="fem" name="sexo" checked>
+            <label for="fem">Feminino</label>
             <input type="radio" id="masc" name="sexo">
             <label for="masc">Masculino</label>
-            <input type="radio" id="fem" name="sexo">
-            <label for="fem">Feminino</label>
         </div>
 
         <div>
             <label for="curso" class="label">Curso:</label>
-            <select name="curso" id="curso">
+            <select name="curso" id="curso" class="select">
                 <option value="122">HTML e CSS</option>
                 <option value="124">JavaScript</option>
                 <option value="126">Git</option>
@@ -41,7 +41,16 @@
 
         <div>
             <label for="atendimento" class="label">Descreva o atendimento especial:</label>
-            <textarea id="atendimento" cols="30" rows="10"></textarea>
+            <textarea id="atendimento" cols="30" rows="10" class="atendimento"></textarea>
+        </div>
+
+        <div style="margin-top: 10px;">
+            <input type="checkbox" id="termos" checked>
+            <label for="termos">Estou de acordo com o termos de serviço</label>
+        </div>
+
+        <div>
+            <input type="submit" value="Realizar inscrição" class="button">
         </div>
 
     </form>
