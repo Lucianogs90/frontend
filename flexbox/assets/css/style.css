@@ -1,0 +1,55 @@
+*{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card{
+    border: 1px #50AA5A solid;
+    border-radius: 20px;
+    width: 280px;
+    height: 384px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card_link{
+    background-color: #50AA5A;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.card_link:hover{
+    background-color: #358b3f;
+}
+
+.card_cabecalho{
+    background-image: url("../img/pexels-alison-burrell-195226\ 2.png");
+    height: 248px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_titulo{
+    text-shadow: 2px 2px 5px aliceblue;
+}
+
+.card_texto{
+    text-align: justify;
+    padding: 10px;
+}

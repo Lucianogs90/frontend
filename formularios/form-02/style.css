@@ -42,3 +42,11 @@
     margin-left: 10px;
     width: var(--tamanho-componente);
 }
+
+.input:valid{
+
+}
+
+.input:invalid{
+    
+}
